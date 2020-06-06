@@ -8,12 +8,12 @@ class BusinessList extends React.Component {
   render () {
     const businessList = (
     <div className="BusinessList">
-    <Business />
-    <Business />
-    <Business />
-    <Business />
-    <Business />
-    <Business />
+   {
+    this.props.businesses.map(business => {
+      return <Business business={business} />
+      }
+    )
+   }
   </div>)
   return businessList
   }
