@@ -2,6 +2,8 @@ import React from 'react'
 import './BusinessList.css'
 import Business from '../Business/Business'
 
+// Creates a list of businesses
+
 class BusinessList extends React.Component {
   render () {
     const businessList = (

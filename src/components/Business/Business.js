@@ -1,6 +1,8 @@
 import React from 'react';
 import './Business.css'
 
+// Component to contain information about the business
+
 const business = {
   imageSrc: 'https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg',
   name: 'MarginOtto Pizzeria',
